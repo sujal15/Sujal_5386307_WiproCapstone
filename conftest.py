@@ -1,5 +1,6 @@
 import pytest
 import os
+import allure
 from datetime import datetime
 from utils.driver_setup import get_driver
 from utils.report_generator import generate_reports
@@ -21,32 +22,32 @@ def pytest_runtest_makereport(item):
     outcome = yield
     report = outcome.get_result()
 
-    # Take screenshot only if test failed
-    if report.when == "call" and report.failed:
+    if report.when == "call":
 
         driver = item.funcargs.get("driver")
 
         if driver:
 
-            folder = "screenshots"
+            os.makedirs("screenshots", exist_ok=True)
 
-            os.makedirs(folder, exist_ok=True)
+            timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
 
-            timestamp = datetime.now().strftime(
-                "%Y%m%d_%H%M%S"
-            )
-
-            file_name = f"{item.name}_{timestamp}.png"
-
-            path = os.path.join(
-                folder,
-                file_name
-            )
+            path = f"screenshots/{item.name}_{timestamp}.png"
 
             driver.save_screenshot(path)
 
-            print(
-                f"\nScreenshot saved: {path}"
+            # Attach screenshot in Allure
+            allure.attach.file(
+                path,
+                name="Test Screenshot",
+                attachment_type=allure.attachment_type.PNG
+            )
+
+            # Attach current page source
+            allure.attach(
+                driver.page_source,
+                name="HTML Source",
+                attachment_type=allure.attachment_type.HTML
             )
 
 

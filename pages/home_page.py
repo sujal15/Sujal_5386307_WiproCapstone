@@ -3,7 +3,7 @@ from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time
-
+import allure
 
 class HomePage:
 
@@ -57,7 +57,11 @@ class HomePage:
             .perform()
 
         print("Hovered on GENZ")
-
+        allure.attach(
+            "Hovered on GENZ successfully",
+            name="Execution Log",
+            attachment_type=allure.attachment_type.TEXT
+        )
         time.sleep(5)
 
     def click_women_dresses(self):
@@ -87,7 +91,11 @@ class HomePage:
                 )
 
                 print("Clicked Dresses")
-
+                allure.attach(
+                    "Clicked Womens's Dresses category",
+                    name="Dresses Navigation Log",
+                    attachment_type=allure.attachment_type.TEXT
+                )
                 return
 
         raise Exception("Dresses link not found")
@@ -135,7 +143,11 @@ class HomePage:
                 )
 
                 print("Clicked Men's T-Shirts")
-
+                allure.attach(
+                    "Clicked Men's T-Shirts category",
+                    name="Shirts Navigation Log",
+                    attachment_type=allure.attachment_type.TEXT
+                )
                 return
 
         raise Exception("Men's T-Shirts link not found")
@@ -187,7 +199,11 @@ class HomePage:
                         )
 
                         print("Clicked Men's Kurtas")
-
+                        allure.attach(
+                            "Clicked Men's Kurtas category",
+                            name="Kurta Navigation Log",
+                            attachment_type=allure.attachment_type.TEXT
+                        )
                         return
 
             except Exception as e:
@@ -244,7 +260,11 @@ class HomePage:
                         )
 
                         print("Clicked Men's Casual Shoes")
-
+                        allure.attach(
+                            "Clicked Men's Casual Shoes category",
+                            name="Casual Shoes Navigation Log",
+                            attachment_type=allure.attachment_type.TEXT
+                        )
                         return
 
             except Exception as e:
@@ -298,7 +318,11 @@ class HomePage:
                         )
 
                         print("Clicked Skincare")
-
+                        allure.attach(
+                            "Clicked Skincare category",
+                            name="Skincare Log",
+                            attachment_type=allure.attachment_type.TEXT
+                        )
                         return
 
             except Exception as e:
@@ -356,7 +380,11 @@ class HomePage:
                         )
 
                         print("Clicked Jewellery")
-
+                        allure.attach(
+                            "Clicked Jewellery category",
+                            name="Jewellery Navigation Log",
+                            attachment_type=allure.attachment_type.TEXT
+                        )
                         return
 
             except Exception as e:
@@ -414,7 +442,11 @@ class HomePage:
                         )
 
                         print("Clicked Heels")
-
+                        allure.attach(
+                            "Clicked Women's Heels category",
+                            name="Heels Navigation Log",
+                            attachment_type=allure.attachment_type.TEXT
+                        )
                         return
 
             except Exception as e:

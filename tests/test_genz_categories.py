@@ -2,27 +2,36 @@ from pages.home_page import HomePage
 from pages.category_page import CategoryPage
 from pages.product_page import ProductPage
 import time
+import allure
 
 class TestGENZCategories:
 
     #E2E TESTING
+    @allure.feature("GENZ")
+    @allure.story("Women's Dresses E2E")
     def test_womens_dresses_e2e(self, driver):
 
         home = HomePage(driver)
         category = CategoryPage(driver)
         product = ProductPage(driver)
-
-        home.open_myntra()
-        home.hover_genz()
-        home.click_women_dresses()
+        with allure.step("Open Myntra"):
+            home.open_myntra()
+        with allure.step("Hover GENZ"):
+            home.hover_genz()
+        with allure.step("Click Dresses"):
+            home.click_women_dresses()
 
         category.verify_page_loaded()
-        category.verify_products_visible()
-        category.open_first_product()
+        with allure.step("Verify products"):
+            category.verify_products_visible()
+        with allure.step("Open Product"):
+            category.open_first_product()
 
         product.switch_to_product_tab()
-        product.select_size()
-        product.add_to_bag()
+        with allure.step("Select size"):
+            product.select_size()
+        with allure.step("Add to bag"):
+            product.add_to_bag()
         product.verify_add_to_bag()
 
     #POSITIVE TESTING
