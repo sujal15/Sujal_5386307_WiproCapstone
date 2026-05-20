@@ -4,7 +4,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time
 import allure
-
+from utils.logger import logger
 class HomePage:
 
     def __init__(self, driver):
@@ -55,7 +55,7 @@ class HomePage:
             .move_to_element(genz) \
             .pause(3) \
             .perform()
-
+        logger.info("Hovered on GENZ")
         print("Hovered on GENZ")
         allure.attach(
             "Hovered on GENZ successfully",
@@ -89,7 +89,7 @@ class HomePage:
                     "arguments[0].click();",
                     link
                 )
-
+                logger.info("Clicked Women's Dresses")
                 print("Clicked Dresses")
                 allure.attach(
                     "Clicked Womens's Dresses category",
@@ -141,7 +141,7 @@ class HomePage:
                     "arguments[0].click();",
                     link
                 )
-
+                logger.info("Clicked Men's T-Shirts")
                 print("Clicked Men's T-Shirts")
                 allure.attach(
                     "Clicked Men's T-Shirts category",
@@ -197,7 +197,7 @@ class HomePage:
                             "arguments[0].click();",
                             link
                         )
-
+                        logger.info("Clicked Men's Kurtas")
                         print("Clicked Men's Kurtas")
                         allure.attach(
                             "Clicked Men's Kurtas category",
@@ -258,7 +258,7 @@ class HomePage:
                             "arguments[0].click();",
                             link
                         )
-
+                        logger.info("Clicked Men's Shoes")
                         print("Clicked Men's Casual Shoes")
                         allure.attach(
                             "Clicked Men's Casual Shoes category",
@@ -316,7 +316,7 @@ class HomePage:
                             "arguments[0].click();",
                             link
                         )
-
+                        logger.info("Clicked Skincare")
                         print("Clicked Skincare")
                         allure.attach(
                             "Clicked Skincare category",
@@ -378,7 +378,7 @@ class HomePage:
                             "arguments[0].click();",
                             link
                         )
-
+                        logger.info("Clicked Jwellery")
                         print("Clicked Jewellery")
                         allure.attach(
                             "Clicked Jewellery category",
@@ -440,7 +440,7 @@ class HomePage:
                             "arguments[0].click();",
                             link
                         )
-
+                        logger.info("Clicked Heels")
                         print("Clicked Heels")
                         allure.attach(
                             "Clicked Women's Heels category",
