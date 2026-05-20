@@ -1,5 +1,0 @@
-base_url: "https://www.myntra.com"
-browser: "chrome"
-headless: false
-implicit_wait: 0
-explicit_wait: 15
