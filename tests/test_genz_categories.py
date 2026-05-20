@@ -78,43 +78,47 @@ class TestGENZCategories:
         category.verify_products_visible()
 
     # NEGATIVE TESTING
+    # NEGATIVE TESTING
     def test_jewellery_negative(self, driver):
         home = HomePage(driver)
         category = CategoryPage(driver)
 
         home.open_myntra()
-
         home.hover_genz()
-
         home.click_jewellery()
 
         category.verify_page_loaded()
 
-        # Intentionally wrong expectation
-        expected_title = "Mobiles"
+        wrong_text = "Smartphones"
 
-        actual_title = driver.title
+        actual = driver.title
 
-        assert expected_title in actual_title, \
-            f"Negative test passed: '{expected_title}' not found"
+        assert wrong_text not in actual
 
+        print(
+            f"Negative Test Passed: "
+            f"'{wrong_text}' correctly not found on Jewellery page"
+        )
+
+    # NEGATIVE TESTING
     # NEGATIVE TESTING
     def test_heels_negative(self, driver):
         home = HomePage(driver)
         category = CategoryPage(driver)
 
         home.open_myntra()
-
         home.hover_genz()
-
         home.click_heels()
 
         category.verify_page_loaded()
 
-        # Intentionally wrong expectation
-        expected = "Laptop"
+        wrong_text = "Refrigerator"
 
         actual = driver.title
 
-        assert expected in actual, \
-            f"Negative test passed: '{expected}' not found"
+        assert wrong_text not in actual
+
+        print(
+            f"Negative Test Passed: "
+            f"'{wrong_text}' correctly not found on Heels page"
+        )
