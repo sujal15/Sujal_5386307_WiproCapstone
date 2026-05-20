@@ -1,8 +1,8 @@
 Test,Outcome,Duration
-tests/test_genz_categories.py::TestGENZCategories::test_womens_dresses_e2e,passed,37.05161600001156
-tests/test_genz_categories.py::TestGENZCategories::test_mens_tshirts_positive,passed,20.841809100005776
-tests/test_genz_categories.py::TestGENZCategories::test_mens_kurtas_positive,passed,28.50361380004324
-tests/test_genz_categories.py::TestGENZCategories::test_mens_shoes_positive,passed,28.585695500019938
-tests/test_genz_categories.py::TestGENZCategories::test_skincare_positive,passed,28.499589200131595
-tests/test_genz_categories.py::TestGENZCategories::test_jewellery_negative,passed,27.29184930003248
-tests/test_genz_categories.py::TestGENZCategories::test_heels_negative,passed,26.88401550007984
+tests/test_genz_categories.py::TestGENZCategories::test_womens_dresses_e2e,passed,37.992698800051585
+tests/test_genz_categories.py::TestGENZCategories::test_mens_tshirts_positive,passed,22.145279600052163
+tests/test_genz_categories.py::TestGENZCategories::test_mens_kurtas_positive,passed,26.10934989992529
+tests/test_genz_categories.py::TestGENZCategories::test_mens_shoes_positive,passed,27.351741899969056
+tests/test_genz_categories.py::TestGENZCategories::test_skincare_positive,passed,28.359540699981153
+tests/test_genz_categories.py::TestGENZCategories::test_jewellery_negative,passed,26.23254909995012
+tests/test_genz_categories.py::TestGENZCategories::test_heels_negative,passed,28.207349200034514
