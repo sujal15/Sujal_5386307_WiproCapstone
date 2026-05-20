@@ -3,7 +3,6 @@ from pages.category_page import CategoryPage
 from pages.product_page import ProductPage
 import time
 
-
 class TestGENZCategories:
 
     #E2E TESTING
