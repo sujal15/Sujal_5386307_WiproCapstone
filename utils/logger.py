@@ -11,13 +11,18 @@ if not logger.handlers:
 
     file_handler = logging.FileHandler(
         "logs/execution.log",
-        mode="a"
+        mode="a",
+        encoding="utf-8"
     )
 
     formatter = logging.Formatter(
         "%(asctime)s | %(levelname)s | %(message)s"
     )
 
-    file_handler.setFormatter(formatter)
+    file_handler.setFormatter(
+        formatter
+    )
 
-    logger.addHandler(file_handler)
+    logger.addHandler(
+        file_handler
+    )

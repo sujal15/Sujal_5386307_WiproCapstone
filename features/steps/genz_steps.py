@@ -35,7 +35,7 @@ def step(context):
 
 @when("user clicks mens kurtas")
 def step(context):
-
+    print("Executing Kurtas step")
     context.home.click_mens_kurtas()
 
 
