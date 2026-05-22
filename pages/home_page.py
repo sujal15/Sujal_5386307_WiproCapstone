@@ -14,8 +14,9 @@ class HomePage:
     def open_myntra(self):
 
         self.driver.get("https://www.myntra.com")
-
+        logger.info("Opened Myntra website")
         self.driver.maximize_window()
+        logger.info("Navigating to Myntra homepage")
 
     def hover_genz(self):
         from selenium.webdriver.common.by import By
@@ -23,7 +24,7 @@ class HomePage:
         from selenium.webdriver.support.ui import WebDriverWait
         from selenium.webdriver.support import expected_conditions as EC
         import time
-
+        logger.info("Searching GENZ menu")
         wait = WebDriverWait(self.driver, 30)
 
         # Wait for navbar
@@ -74,7 +75,7 @@ class HomePage:
         wait = WebDriverWait(self.driver, 30)
 
         time.sleep(3)
-
+        logger.info("Searching Women's Western Wear section")
         # Find all visible submenu links
         links = self.driver.find_elements(By.TAG_NAME, "a")
 
@@ -110,7 +111,7 @@ class HomePage:
         wait = WebDriverWait(self.driver, 30)
 
         time.sleep(3)
-
+        logger.info("Searching Men's Casual Wear section")
         # Locate MEN'S CASUAL WEAR section
         mens_section = wait.until(
             EC.presence_of_element_located(
@@ -162,7 +163,7 @@ class HomePage:
         links = self.driver.find_elements(By.TAG_NAME, "a")
 
         print("\nSearching Men's Kurtas...\n")
-
+        logger.info("Searching Men's Occasion Wear section")
         inside_mens_section = False
 
         for link in links:
@@ -221,7 +222,7 @@ class HomePage:
         links = self.driver.find_elements(By.TAG_NAME, "a")
 
         print("\nSearching Men's Casual Shoes...\n")
-
+        logger.info("Searching Men's Footwear section")
         inside_mens_footwear = False
 
         for link in links:
@@ -280,7 +281,7 @@ class HomePage:
         time.sleep(5)
 
         links = self.driver.find_elements(By.TAG_NAME, "a")
-
+        logger.info("Searching Beauty & Grooming")
         print("\nSearching Skincare...\n")
 
         inside_beauty = False
@@ -339,7 +340,7 @@ class HomePage:
         time.sleep(5)
 
         links = self.driver.find_elements(By.TAG_NAME, "a")
-
+        logger.info("Searching Accessories section")
         print("\nSearching Jewellery...\n")
 
         inside_accessories = False
@@ -401,7 +402,7 @@ class HomePage:
         time.sleep(5)
 
         links = self.driver.find_elements(By.TAG_NAME, "a")
-
+        logger.info("Searching Women's Footwear")
         print("\nSearching Heels...\n")
 
         inside_women_footwear = False

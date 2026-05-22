@@ -1,7 +1,7 @@
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-
+from utils.logger import logger
 
 class CategoryPage:
 
@@ -20,16 +20,16 @@ class CategoryPage:
         assert "myntra" in self.driver.current_url.lower()
 
     def verify_products_visible(self):
-
+        logger.info("Verifying products are displayed")
         products = self.driver.find_elements(
             By.CLASS_NAME,
             "product-base"
         )
-
+        logger.info("Products loaded successfully")
         assert len(products) > 0
 
     def open_first_product(self):
-
+        logger.info("Opening first product")
         products = self.wait.until(
             EC.presence_of_all_elements_located(
                 (By.CLASS_NAME, "product-base")
@@ -42,3 +42,4 @@ class CategoryPage:
         )
 
         products[0].click()
+        logger.info("First product clicked")

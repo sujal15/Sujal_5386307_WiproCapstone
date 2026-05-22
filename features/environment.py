@@ -2,9 +2,10 @@ from utils.driver_setup import get_driver
 import allure
 import os
 from datetime import datetime
-
+from utils.logger import logger
 
 def before_scenario(context, scenario):
+    logger.info(f"Starting scenario: {scenario.name}")
 
     context.driver = get_driver()
 
@@ -48,7 +49,7 @@ def after_step(context, step):
 
 
 def after_scenario(context, scenario):
-
+    logger.info(f"Completed scenario: {scenario.name}")
     os.makedirs(
         "screenshots",
         exist_ok=True

@@ -2,7 +2,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time
-
+from utils.logger import logger
 
 class ProductPage:
 
@@ -12,7 +12,7 @@ class ProductPage:
         self.wait = WebDriverWait(driver, 30)
 
     def switch_to_product_tab(self):
-
+        logger.info("Switching to product tab")
         self.wait.until(
             lambda d: len(d.window_handles) > 1
         )
@@ -24,6 +24,7 @@ class ProductPage:
         print("Switched to product tab")
 
     def select_size(self):
+        logger.info("Selecting product size")
 
         time.sleep(3)
 
@@ -53,7 +54,7 @@ class ProductPage:
                         "arguments[0].click();",
                         size
                     )
-
+                    logger.info("Size selected successfully")
                     print("Size selected:", text)
 
                     selected = True
@@ -63,11 +64,13 @@ class ProductPage:
                 print("Unable to click size:", e)
 
         if not selected:
+            logger.error("No size available")
             raise Exception("Could not select any size")
 
     def add_to_bag(self):
 
         time.sleep(3)
+        logger.info("Clicking Add To Bag")
 
         buttons = self.driver.find_elements(
             By.XPATH,
@@ -93,7 +96,7 @@ class ProductPage:
                     )
 
                     print("ADD TO BAG clicked")
-
+                    logger.info("Item added to shopping bag")
                     clicked = True
                     break
 
@@ -104,7 +107,7 @@ class ProductPage:
             raise Exception("Unable to click ADD TO BAG")
 
     def verify_add_to_bag(self):
-
+        logger.info("Verifying Add To Bag operation")
         time.sleep(5)
 
         page = self.driver.page_source.lower()
@@ -123,7 +126,7 @@ class ProductPage:
 
 
     def open_bag(self):
-
+        logger.info("Opening Shopping Bag")
         wait = WebDriverWait(self.driver, 20)
 
         bag = wait.until(
@@ -143,7 +146,7 @@ class ProductPage:
         print("Opened Shopping Bag")
 
     def verify_item_in_bag(self):
-
+        logger.info("Verifying item exists in bag")
         wait = WebDriverWait(self.driver, 20)
 
         item = wait.until(
@@ -154,7 +157,7 @@ class ProductPage:
                 )
             )
         )
-
+        logger.info("Item successfully verified")
         print(
             "Item present:",
             item.text
@@ -164,7 +167,7 @@ class ProductPage:
             "No item found in shopping bag"
 
     def click_place_order(self):
-
+        logger.info("Clicking Place Order button")
         wait = WebDriverWait(self.driver, 20)
 
         place = wait.until(
@@ -175,7 +178,7 @@ class ProductPage:
                 )
             )
         )
-
+        logger.info("Place Order page opened")
         self.driver.execute_script(
             "arguments[0].click();",
             place
