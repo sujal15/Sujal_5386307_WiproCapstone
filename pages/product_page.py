@@ -119,3 +119,68 @@ class ProductPage:
 
         else:
             raise Exception("Product was NOT added to bag")
+
+
+
+    def open_bag(self):
+
+        wait = WebDriverWait(self.driver, 20)
+
+        bag = wait.until(
+            EC.element_to_be_clickable(
+                (
+                    By.XPATH,
+                    "//span[text()='Bag']/parent::*"
+                )
+            )
+        )
+
+        self.driver.execute_script(
+            "arguments[0].click();",
+            bag
+        )
+
+        print("Opened Shopping Bag")
+
+    def verify_item_in_bag(self):
+
+        wait = WebDriverWait(self.driver, 20)
+
+        item = wait.until(
+            EC.presence_of_element_located(
+                (
+                    By.XPATH,
+                    "//div[contains(@class,'itemContainer-base-brand')]"
+                )
+            )
+        )
+
+        print(
+            "Item present:",
+            item.text
+        )
+
+        assert item.is_displayed(), \
+            "No item found in shopping bag"
+
+    def click_place_order(self):
+
+        wait = WebDriverWait(self.driver, 20)
+
+        place = wait.until(
+            EC.element_to_be_clickable(
+                (
+                    By.XPATH,
+                    "//div[text()='PLACE ORDER']"
+                )
+            )
+        )
+
+        self.driver.execute_script(
+            "arguments[0].click();",
+            place
+        )
+
+        print(
+            "Clicked Place Order"
+        )

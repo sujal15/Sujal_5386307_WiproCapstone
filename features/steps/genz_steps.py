@@ -25,7 +25,22 @@ def step(context):
 def step(context):
 
     context.home.click_women_dresses()
+@then("user opens bag")
+def step(context):
 
+    context.product.open_bag()
+
+
+@then("user verifies item in bag")
+def step(context):
+
+    context.product.verify_item_in_bag()
+
+
+@then("user clicks place order")
+def step(context):
+
+    context.product.click_place_order()
 
 @when("user clicks mens tshirts")
 def step(context):

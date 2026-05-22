@@ -1,6 +1,7 @@
 Feature: Myntra GENZ Shopping Automation
 
 Scenario: Women's Dresses E2E
+
 Given user opens Myntra
 When user hovers GENZ
 And user clicks dresses
@@ -8,6 +9,9 @@ Then products should be visible
 And user opens first product
 And user selects size
 And user adds to bag
+And user opens bag
+And user verifies item in bag
+And user clicks place order
 
 Scenario: Men's T-Shirts Positive
 Given user opens Myntra
