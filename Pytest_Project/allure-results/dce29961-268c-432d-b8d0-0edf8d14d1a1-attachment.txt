@@ -1,0 +1,21 @@
+[32mINFO    [0m myntra:conftest.py:10 Starting test execution
+[32mINFO    [0m myntra:driver_setup.py:18 Opened Myntra website
+[32mINFO    [0m myntra:home_page.py:17 Navigating to Myntra homepage
+[32mINFO    [0m myntra:home_page.py:37 Searching GENZ menu
+[32mINFO    [0m myntra:home_page.py:58 Hovered on GENZ
+[32mINFO    [0m myntra:home_page.py:80 Searching Women's Western Wear section
+[32mINFO    [0m myntra:home_page.py:92 Clicked Women's Dresses
+[32mINFO    [0m myntra:category_page.py:23 Verifying products are displayed
+[32mINFO    [0m myntra:category_page.py:28 Products loaded successfully
+[32mINFO    [0m myntra:category_page.py:32 Opening first product
+[32mINFO    [0m myntra:category_page.py:43 First product clicked
+[32mINFO    [0m myntra:product_page.py:15 Switching to product tab
+[32mINFO    [0m myntra:product_page.py:27 Selecting product size
+[32mINFO    [0m myntra:product_page.py:56 Size selected successfully
+[32mINFO    [0m myntra:product_page.py:70 Clicking Add To Bag
+[32mINFO    [0m myntra:product_page.py:95 Item added to shopping bag
+[32mINFO    [0m myntra:product_page.py:108 Verifying Add To Bag operation
+[32mINFO    [0m myntra:product_page.py:128 Opening Shopping Bag
+[32mINFO    [0m myntra:product_page.py:149 Verifying item exists in bag
+[32mINFO    [0m myntra:product_page.py:165 Item successfully verified
+[32mINFO    [0m myntra:test_genz_categories.py:48 E2E completed

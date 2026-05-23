@@ -1,0 +1,2 @@
+[32mINFO    [0m myntra:home_page.py:58 Hovered on GENZ
+[32mINFO    [0m myntra:home_page.py:319 Clicked Skincare

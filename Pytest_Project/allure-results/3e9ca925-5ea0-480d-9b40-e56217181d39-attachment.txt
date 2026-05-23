@@ -1,0 +1,7 @@
+[32mINFO    [0m myntra:conftest.py:10 Starting test execution
+[32mINFO    [0m myntra:driver_setup.py:18 Opened Myntra website
+[32mINFO    [0m myntra:home_page.py:17 Navigating to Myntra homepage
+[32mINFO    [0m myntra:home_page.py:37 Searching GENZ menu
+[32mINFO    [0m myntra:home_page.py:58 Hovered on GENZ
+[32mINFO    [0m myntra:home_page.py:342 Searching Accessories section
+[32mINFO    [0m myntra:home_page.py:381 Clicked Jwellery

@@ -1,0 +1,8 @@
+selenium
+pytest
+webdriver-manager
+pytest-json-report
+pandas
+openpyxl
+allure-pytest
+pytest-html

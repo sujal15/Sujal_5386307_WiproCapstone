@@ -1,0 +1,9 @@
+[32mINFO    [0m myntra:conftest.py:10 Starting test execution
+[32mINFO    [0m myntra:driver_setup.py:18 Opened Myntra website
+[32mINFO    [0m myntra:home_page.py:17 Navigating to Myntra homepage
+[32mINFO    [0m myntra:home_page.py:37 Searching GENZ menu
+[32mINFO    [0m myntra:home_page.py:58 Hovered on GENZ
+[32mINFO    [0m myntra:home_page.py:163 Searching Men's Occasion Wear section
+[32mINFO    [0m myntra:home_page.py:200 Clicked Men's Kurtas
+[32mINFO    [0m myntra:category_page.py:23 Verifying products are displayed
+[32mINFO    [0m myntra:category_page.py:28 Products loaded successfully
