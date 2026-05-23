@@ -3,7 +3,7 @@ import allure
 import os
 from datetime import datetime
 from utils.logger import logger
-
+import subprocess
 def before_scenario(context, scenario):
     logger.info(f"Starting scenario: {scenario.name}")
 
@@ -69,3 +69,17 @@ def after_scenario(context, scenario):
         )
 
     context.driver.quit()
+
+
+
+
+def after_all(context):
+
+    subprocess.run(
+        [
+            "allure",
+            "serve",
+            "allure-results"
+        ],
+        shell=True
+    )
