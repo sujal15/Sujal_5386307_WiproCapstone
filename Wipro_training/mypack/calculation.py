@@ -1,0 +1,8 @@
+x = int(input("Enter the number"))
+y = int(input("EEnter the number"))
+print("sum" , x+y)
+print("diff", x-y)
+print("multi", x*y)
+print("div", x /y)
+print("mod", x%y)
+print("rem", x//y)
