@@ -1,6 +1,0 @@
-text = 'andaman'
-count =0
-for i, ch in enumerate(test):
-	if ch == 'a'
-		count = count +1
-print(count)

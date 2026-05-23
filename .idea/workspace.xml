@@ -2,31 +2,299 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00db91e8-b763-4368-9408-1193886771c3" name="Changes" comment="added log feature">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/WiproCapStone.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/behave.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/environment.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/genz.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/steps/genz_steps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/category_page.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home_page.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/product_page.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/report.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/report.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/report.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/FAIL_test_06_add_to_bag_20260519_084628.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/TC01_homepage_loaded_20260519_084533.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_genz_categories.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/driver_setup.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/logger.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/report_generator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/.idea/PythonCoding.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/BDD/BDDProject/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/BDD/BDDProject/.idea/BDDProject.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/BDD/BDDProject/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/BDD/BDDProject/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/BDD/BDDProject/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/BDD/BDDProject/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/BDD/BDDProject/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/BDD/BDDProject/behave.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/BDD/BDDProject/config/config.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/BDD/BDDProject/features/enviorment.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/BDD/BDDProject/features/login.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/BDD/BDDProject/features/product.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/BDD/BDDProject/features/signup.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/BDD/BDDProject/features/steps/signup_steps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/BDD/BDDProject/locators/signup_locators.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/BDD/BDDProject/logs/automation.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/BDD/BDDProject/pages/login_page.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/BDD/BDDProject/pages/signup_page.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/BDD/BDDProject/report/allure-results/4094360c-4a9f-4f8d-b15b-472a06f4a1a1-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/BDD/BDDProject/report/allure-results/6723b3e5-124b-4e4b-b178-03e21bf2a8f2-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/BDD/BDDProject/report/allure-results/8ab1592f-0b67-4aa0-8e8d-874d5adc982b-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/BDD/BDDProject/report/allure-results/908b206c-4ac0-4e38-888f-f705c46be374-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/BDD/BDDProject/report/allure-results/9e282392-b39f-4b94-9db2-28e16d3ac03f-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/BDD/BDDProject/report/allure-results/aeb13a9a-d97e-4c45-b818-710713fc1c54-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/BDD/BDDProject/report/allure-results/b333fa4a-19db-48a5-9ce6-62463d8a71e9-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/BDD/BDDProject/report/allure-results/bc12606e-0cfd-4c97-9b8e-49c048f69007-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/BDD/BDDProject/report/allure-results/dae41a33-73ff-45b9-bde0-8586b8a98ad1-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/BDD/BDDProject/report/allure-results/e5be45c0-3b91-4821-b555-b98c05084060-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/BDD/BDDProject/report/allure-results/e743ab49-4886-4aca-8804-a5b83ea051f9-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/BDD/BDDProject/report/allure-results/ec159bee-36bc-464e-a6bb-712444a6e959-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/BDD/BDDProject/requirement.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/BDD/BDDProject/runtest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/BDD/BDDProject/utils/config_reader.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/BDD/BDDProject/utils/logger.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/BDD/BDDProject/utils/screenshot_util.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/BDD/BDDProject/utils/waits.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/BDD/PythonProject/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Python Packages/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Python Packages/.idea/Data_Handeling.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Python Packages/.idea/Python Packages.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Python Packages/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Python Packages/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Python Packages/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Python Packages/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Python Packages/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Python Packages/numpy/array_operation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Python Packages/numpy/math_operation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Python Packages/numpy/numpy_basic.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Python Packages/pandas/data_frame.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Python Packages/pandas/data_frame2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Python Packages/pandas/data_manipulation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Python Packages/pandas/pandas_basics.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Python Packages/pandas/pandas_dsa.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Python Packages/pandas/reading.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Python Packages/pandas/sample_data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Python Packages/pandas/sample_data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Python Packages/pandas/sample_data.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Python Packages/visualization/advanced_plot.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Python Packages/visualization/histogram.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Python Packages/visualization/simple_plot.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Python/Selenium/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Python/Selenium/.idea/PythonCoding.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Python/Selenium/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Python/Selenium/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Python/Selenium/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Python/Selenium/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Python/Selenium/AutomationTesting/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Python/Selenium/AutomationTesting/.idea/AutomationTesting.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Python/Selenium/AutomationTesting/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Python/Selenium/AutomationTesting/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Python/Selenium/AutomationTesting/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Python/Selenium/AutomationTesting/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Python/Selenium/AutomationTesting/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Python/Selenium/AutomationTesting/Reasources/chromedriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Python/Selenium/AutomationTesting/Reasources/msedgedriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Python/Selenium/AutomationTesting/Selenium_basics/google_homepage_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Python/Softwares/edgedriver_win64.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Python/Softwares/edgedriver_win64/Driver_Notes/EULA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Python/Softwares/edgedriver_win64/Driver_Notes/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Python/Softwares/edgedriver_win64/Driver_Notes/credits.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Python/Softwares/edgedriver_win64/msedgedriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/ROBOT/RobotProject/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/ROBOT/RobotProject/.idea/RobotProject.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/ROBOT/RobotProject/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/ROBOT/RobotProject/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/ROBOT/RobotProject/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/ROBOT/RobotProject/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/ROBOT/RobotProject/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/ROBOT/RobotProject/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/ROBOT/RobotProject/config/qa.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/ROBOT/RobotProject/gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/ROBOT/RobotProject/libraries/csv_reader.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/ROBOT/RobotProject/libraries/excel_reader.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/ROBOT/RobotProject/libraries/logger.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/ROBOT/RobotProject/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/ROBOT/RobotProject/resources/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/ROBOT/RobotProject/resources/keyboards/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/ROBOT/RobotProject/resources/keyboards/signup_keyboard.robot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/ROBOT/RobotProject/resources/locators/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/ROBOT/RobotProject/resources/locators/signup_locators.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/ROBOT/RobotProject/resources/pages/SignupPage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/ROBOT/RobotProject/resources/pages/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/ROBOT/RobotProject/resources/variables/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/ROBOT/RobotProject/resources/variables/config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/ROBOT/RobotProject/resources/variables/enviorments.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/ROBOT/RobotProject/resources/variables/testdata.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/ROBOT/RobotProject/runtests.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/ROBOT/RobotProject/tests/signup.robot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Selenium/AutomationTesting/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Selenium/AutomationTesting/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Selenium/AutomationTesting/.idea/AutomationTesting.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Selenium/AutomationTesting/.idea/dictionaries/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Selenium/AutomationTesting/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Selenium/AutomationTesting/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Selenium/AutomationTesting/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Selenium/AutomationTesting/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Selenium/AutomationTesting/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Selenium/AutomationTesting/Reasources/chromedriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Selenium/AutomationTesting/Reasources/msedgedriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Selenium/AutomationTesting/Selenium_basics/google_homepage_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Selenium/AutomationTesting/Selenium_basics/locators.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Selenium/AutomationTesting/Selenium_basics/navigation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Selenium/AutomationTesting/Selenium_basics/wait.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Selenium/AutomationTesting/Selenium_basics/webelements.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Selenium/AutomationTesting/seleniumpytest/test_alerthandeling.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Selenium/AutomationTesting/seleniumpytest/test_amazon.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Selenium/AutomationTesting/seleniumpytest/test_ghpload.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Selenium/AutomationTesting/seleniumpytest/test_windowhandeling.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Selenium/SeleniumPOM/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Selenium/SeleniumPOM/.idea/SeleniumPOM.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Selenium/SeleniumPOM/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Selenium/SeleniumPOM/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Selenium/SeleniumPOM/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Selenium/SeleniumPOM/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Selenium/SeleniumPOM/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Selenium/SeleniumPOM/conftest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Selenium/SeleniumPOM/pages/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Selenium/SeleniumPOM/pages/homepage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Selenium/SeleniumPOM/pages/product_detail_page.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Selenium/SeleniumPOM/pages/product_listing_page.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Selenium/SeleniumPOM/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Selenium/SeleniumPOM/tests/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Selenium/SeleniumPOM/tests/test_amazon.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Selenium/SeleniumPOM/tests/test_amazon_e2e.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Selenium/Softwares/chromedriver-win64.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Selenium/Softwares/chromedriver-win64/chromedriver-win64/LICENSE.chromedriver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Selenium/Softwares/chromedriver-win64/chromedriver-win64/THIRD_PARTY_NOTICES.chromedriver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Selenium/Softwares/chromedriver-win64/chromedriver-win64/chromedriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Selenium/Softwares/edgedriver_win64.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Selenium/Softwares/edgedriver_win64/Driver_Notes/EULA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Selenium/Softwares/edgedriver_win64/Driver_Notes/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Selenium/Softwares/edgedriver_win64/Driver_Notes/credits.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Selenium/Softwares/edgedriver_win64/msedgedriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Selenium/unittest/unittesttraining/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Selenium/unittest/unittesttraining/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Selenium/unittest/unittesttraining/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Selenium/unittest/unittesttraining/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Selenium/unittest/unittesttraining/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Selenium/unittest/unittesttraining/.idea/unittesttraining.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Selenium/unittest/unittesttraining/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Selenium/unittest/unittesttraining/src/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Selenium/unittest/unittesttraining/src/calculations.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Selenium/unittest/unittesttraining/tests/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Selenium/unittest/unittesttraining/tests/test_calculations.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Wipro_Assesment/Day 2_Assesment/FirstQuestion.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Wipro_Assesment/Day 2_Assesment/SecondQuestion.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Wipro_Assesment/Day 2_Assesment/ThirdQuestion.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Wipro_Assesment/Day 2_Assesment/fourth.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Wipro_Assesment/Day 3_Assesment/Question 1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Wipro_Assesment/Day 3_Assesment/Question2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Wipro_Assesment/Day 3_Assesment/Question3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Wipro_Assesment/Day 3_Assesment/Question4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Wipro_Assesment/Day 3_Assesment/Question5.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Wipro_Assesment/Day1_ Assesment/CountdownTimer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Wipro_Assesment/Day1_ Assesment/EvenNumbers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Wipro_Assesment/Day1_ Assesment/VowelsLoop.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Wipro_Assesment/Day1_ Assesment/divisibleby5.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Wipro_Assesment/Day1_ Assesment/eligible.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Wipro_Assesment/Day1_ Assesment/factorrial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Wipro_Assesment/Day1_ Assesment/grading.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Wipro_Assesment/Day1_ Assesment/leapyear.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Wipro_Assesment/Day1_ Assesment/password.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Wipro_Assesment/Day1_ Assesment/skips5Loop.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Wipro_Assesment/Day1_ Assesment/trafficlight.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Wipro_Assesment/Day1_ Assesment/vowelconsonent.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Wipro_Assesment/Day_10_Assesment/test_navigation_title.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Wipro_Assesment/Day_10_Assesment/test_search_functionality.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Wipro_Assesment/assesment solution 1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Wipro_Assesment/assesment solution 2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/Wipro_Assesment/assignment day 1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/basic_program/calculation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/basic_program/circle.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/basic_program/foritrable.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/basic_program/forloop.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/basic_program/functionsexample.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/basic_program/ifelsestatment.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/basic_program/mathoperator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/basic_program/moduleseg.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/basic_program/new.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/basic_program/whilelooping.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/command line interface.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/file_mgmt/csvfilemgmt.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/file_mgmt/excelfilemgmt.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/file_mgmt/jsonfilemgmt.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/firstprogram.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/input.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/mypack/Selenium_final/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/mypack/Selenium_final/.idea/Selenium_final.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/mypack/Selenium_final/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/mypack/Selenium_final/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/mypack/Selenium_final/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/mypack/Selenium_final/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/mypack/Selenium_final/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/mypack/Selenium_final/config/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/mypack/Selenium_final/conftest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/mypack/Selenium_final/data/login_data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/mypack/Selenium_final/data/product_validation_data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/mypack/Selenium_final/data/test_login.ods" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/mypack/Selenium_final/pages/basepage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/mypack/Selenium_final/pages/inventorypage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/mypack/Selenium_final/pages/loginpage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/mypack/Selenium_final/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/mypack/Selenium_final/tests/test_inventorypage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/mypack/Selenium_final/tests/test_loginpage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/mypack/Selenium_final/utils/config_reader.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/mypack/Selenium_final/utils/csv_reader.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/mypack/Selenium_final/utils/excel_reader.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/mypack/Selenium_final/utils/logger.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/mypack/Selenium_final/utils/screenshot_util.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/mypack/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/mypack/calculation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/mypack/circle.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/mypack/foritrable.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/mypack/forloop.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/mypack/functionsexample.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/mypack/ifelsestatment.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/mypack/mathoperator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/mypack/moduleseg.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/mypack/whilelooping.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/numeric operationn.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/oopsconcept/EmployeeDetails.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/oopsconcept/MRO.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/oopsconcept/Teacher.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/oopsconcept/absdriver.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/oopsconcept/age_cal_driver.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/oopsconcept/agecalc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/oopsconcept/calc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/oopsconcept/calcdriver.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/oopsconcept/college.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/oopsconcept/demoA.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/oopsconcept/demoB.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/oopsconcept/demoC.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/oopsconcept/employeedriver.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/oopsconcept/formulamethods.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/oopsconcept/inheritancedriver.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/oopsconcept/myexception.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/oopsconcept/rectangle.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/oopsconcept/square.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/oopsconcept/student.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/oopsconcept/studentgrade.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/regexeg.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/unitest/PytestTraining/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/unitest/PytestTraining/.idea/PytestTraining.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/unitest/PytestTraining/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/unitest/PytestTraining/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/unitest/PytestTraining/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/unitest/PytestTraining/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/unitest/PytestTraining/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/unitest/PytestTraining/src/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/unitest/PytestTraining/src/calculations.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/unitest/PytestTraining/tests/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/unitest/PytestTraining/tests/confitest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/unitest/PytestTraining/tests/test_calculations.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/unitest/PytestTraining/tests/testcalc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/unittest/unittesttraining/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/unittest/unittesttraining/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/unittest/unittesttraining/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/unittest/unittesttraining/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/unittest/unittesttraining/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/unittest/unittesttraining/.idea/unittesttraining.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/unittest/unittesttraining/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/unittest/unittesttraining/src/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/unittest/unittesttraining/src/calculations.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/unittest/unittesttraining/tests/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wipro_training/unittest/unittesttraining/tests/test_calculations.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -267,7 +535,7 @@
       <workItem from="1779380571934" duration="784000" />
       <workItem from="1779436950506" duration="389000" />
       <workItem from="1779438826181" duration="734000" />
-      <workItem from="1779535493694" duration="2778000" />
+      <workItem from="1779535493694" duration="3684000" />
     </task>
     <task id="LOCAL-00001" summary="All test cases are working fine">
       <option name="closed" value="true" />
